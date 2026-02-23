@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace LoginSystem.Models
 {
-    internal class Admin
+    public class Admin : User
     {
+        public Admin(string username, string password) : base(username, password, "Admin")    {}
     }
 }
