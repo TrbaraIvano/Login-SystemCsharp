@@ -1,3 +1,5 @@
 <Solution>
-  <Project Path="LoginSystem.csproj" />
+  <Project Path="../Login/Login.csproj" Id="05406942-d3c3-4b5a-87cb-39333e0719ea" />
+  <Project Path="../Models/Models.csproj" Id="1f268ce3-7b2c-4667-b813-452dbfe3d285" />
+  <Project Path="../Service/Service.csproj" Id="8649b4fc-4e7a-4684-9762-8c8951cfa406" />
 </Solution>
