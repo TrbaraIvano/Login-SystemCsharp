@@ -9,5 +9,10 @@ namespace LoginSystem.Models
     public class NormalUser : User
     {
         public NormalUser(string username, string password) : base(username, password, "User")  {}
+
+        public void ChangePassword(string newHash)
+        {
+            PasswordHash = newHash;
+        }
     }
 }
